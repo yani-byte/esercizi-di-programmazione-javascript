@@ -17,3 +17,8 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var cats = 44;
+var catsrow = 6;
+var numrow = Math.ceil(cats/catsrow);
+var missingcats = numrow*catsrow-cats;
