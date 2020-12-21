@@ -18,7 +18,9 @@
   http://www.imparareaprogrammare.it
 */
 
-var cats = 44;
-var catsrow = 6;
-var numrow = Math.ceil(cats/catsrow);
-var missingcats = numrow*catsrow-cats;
+var gatti = 44;
+var gattinellefile = 6;
+var file = Math.ceil(gatti/gattinellefile);
+var gattimancanti = file*gattinellefile - gatti;
+console.log(file);
+console.log(gattimancanti);
